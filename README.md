@@ -1,4 +1,4 @@
-postgresql-packer
-=================
+#postgresql-packer
 
-Packer builder for a Postgres box
+Packer Postgres builder
+-- in dev still
