@@ -3,7 +3,7 @@
   "env_run_lists": {},
   "default_attributes": {
     "postgresql": {
-      "password": "postgrespass123"
+      "password": "md57efc44e8ec248347d5118cf3a6b8cc94"
     }
   },
   "override_attributes": {},
