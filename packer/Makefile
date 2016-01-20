@@ -1,4 +1,4 @@
-PACKER_JSON=postgresql-debian-7.7-i386.json
+PACKER_JSON=postgresql-debian-8.2-amd64.json
 
 all: help
 
