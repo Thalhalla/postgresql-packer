@@ -4,7 +4,11 @@ This will allow you to build a qcow2 image ~2.4GB in size that runs debian-8.2 w
 ## Usage
 clone the repo:
 
-     git clone -b qemu --depth 1 git@github.com:Thalhalla/postgresql-packer.git postgresql-packer && cd postgresql-packer/packer
+     git clone -b qemu --depth 1 git@github.com:Thalhalla/postgresql-packer.git postgresql-packer
+
+change directory to packer namespace:
+
+     cd postgresql-packer/packer
 
 build the image:
 
