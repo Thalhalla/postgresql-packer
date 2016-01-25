@@ -28,7 +28,7 @@
       "disk_size": 9960,
       "format": "qcow2",
       "accelerator": "kvm",
-      "headless": "false",
+      "headless": "true",
       "http_directory": "http",
       "iso_checksum": "92aa84ec438ae27ab797be4f056ed6b48fad3b58",
       "iso_checksum_type": "sha1",
