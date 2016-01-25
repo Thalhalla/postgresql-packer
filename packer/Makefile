@@ -30,13 +30,13 @@ build-qemu:
 	/usr/bin/time -v packer build --only=qemu $(PACKER_JSON)
 
 build-qemu-debug:
-	/usr/bin/time -v packer build -debug --only=qemu $(PACKER_JSON)
+	PACKER_LOG=1 /usr/bin/time -v packer build -debug --only=qemu $(PACKER_JSON)
 
 build-vbox:
 	/usr/bin/time -v packer build --only=virtualbox-iso $(PACKER_JSON)
 
 build-vbox-debug:
-	/usr/bin/time -v packer build -debug --only=virtualbox-iso $(PACKER_JSON)
+	PACKER_LOG=1 /usr/bin/time -v packer build -debug --only=virtualbox-iso $(PACKER_JSON)
 
 cleanvendor:
 	@echo "cleanvendor"
